@@ -1,0 +1,12 @@
+﻿<Properties StartupItem="MixpanelBinding/MixpanelBinding.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MixpanelBinding/ApiDefinition.cs">
+    <Files>
+      <File FileName="MixpanelBinding/ApiDefinition.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
