@@ -11,7 +11,9 @@ public override UIWindow Window { get; set; }
 Then in FinishedLaunching():
 
 Window = new UIWindow(UIScreen.MainScreen.Bounds);
+
 Window.RootViewController = new MyFirstViewController(true);
+
 Window.MakeKeyAndVisible();
 
 
