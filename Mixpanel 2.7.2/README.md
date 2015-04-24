@@ -11,8 +11,11 @@ public override UIWindow Window { get; set; }
 Then in FinishedLaunching():
 
 Window = new UIWindow(UIScreen.MainScreen.Bounds);
+
 Window.RootViewController = new MyFirstViewController(true);
+
 Window.MakeKeyAndVisible();
+
 
 
 Otherwise it will throw 'Unrecognised selector sent to instance' when you try to create A/B Test.
