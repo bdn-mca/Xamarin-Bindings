@@ -1,0 +1,13 @@
+﻿<Properties StartupItem="ZSSRichTextEditorBinding.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="StructsAndEnums.cs">
+    <Files>
+      <File FileName="ApiDefinition.cs" Line="70" Column="6" />
+      <File FileName="StructsAndEnums.cs" Line="11" Column="11" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

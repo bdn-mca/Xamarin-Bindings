@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26114B091B70B925007A45A0 /* libZSSRichTextEditor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26114AFD1B70B925007A45A0 /* libZSSRichTextEditor.a */; };
+		26114B441B70BBCF007A45A0 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26114B431B70BBCF007A45A0 /* CoreText.framework */; };
+		26114B461B70BBD5007A45A0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26114B451B70BBD5007A45A0 /* CoreGraphics.framework */; };
+		26114B661B70D788007A45A0 /* CYRLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 26114B491B70D788007A45A0 /* CYRLayoutManager.m */; };
+		26114B671B70D788007A45A0 /* CYRTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 26114B4B1B70D788007A45A0 /* CYRTextStorage.m */; };
+		26114B681B70D788007A45A0 /* CYRTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26114B4D1B70D788007A45A0 /* CYRTextView.m */; };
+		26114B691B70D788007A45A0 /* CYRToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 26114B4F1B70D788007A45A0 /* CYRToken.m */; };
+		26114B6A1B70D788007A45A0 /* HRBrightnessCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = 26114B521B70D788007A45A0 /* HRBrightnessCursor.m */; };
+		26114B6B1B70D788007A45A0 /* HRCgUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 26114B541B70D788007A45A0 /* HRCgUtil.m */; };
+		26114B6C1B70D788007A45A0 /* HRColorCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = 26114B561B70D788007A45A0 /* HRColorCursor.m */; };
+		26114B6D1B70D788007A45A0 /* HRColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26114B591B70D788007A45A0 /* HRColorPickerView.m */; };
+		26114B6E1B70D788007A45A0 /* HRColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26114B5B1B70D788007A45A0 /* HRColorPickerViewController.m */; };
+		26114B6F1B70D788007A45A0 /* HRColorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 26114B5D1B70D788007A45A0 /* HRColorUtil.m */; };
+		26114B701B70D788007A45A0 /* ZSSBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 26114B601B70D788007A45A0 /* ZSSBarButtonItem.m */; };
+		26114B711B70D788007A45A0 /* ZSSRichTextEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 26114B631B70D788007A45A0 /* ZSSRichTextEditor.m */; };
+		26114B721B70D788007A45A0 /* ZSSTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26114B651B70D788007A45A0 /* ZSSTextView.m */; };
+		265087741B70E6410091C9FE /* ZSSRichTextEditor.js in Resources */ = {isa = PBXBuildFile; fileRef = 26114B621B70D788007A45A0 /* ZSSRichTextEditor.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26114B0A1B70B925007A45A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26114AF51B70B924007A45A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26114AFC1B70B925007A45A0;
+			remoteInfo = ZSSRichTextEditor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		26114AFB1B70B925007A45A0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		26114AFD1B70B925007A45A0 /* libZSSRichTextEditor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libZSSRichTextEditor.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		26114B081B70B925007A45A0 /* ZSSRichTextEditorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZSSRichTextEditorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26114B0E1B70B925007A45A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26114B431B70BBCF007A45A0 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		26114B451B70BBD5007A45A0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		26114B481B70D788007A45A0 /* CYRLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CYRLayoutManager.h; path = ZSSRichTextEditor/CYRLayoutManager.h; sourceTree = "<group>"; };
+		26114B491B70D788007A45A0 /* CYRLayoutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CYRLayoutManager.m; path = ZSSRichTextEditor/CYRLayoutManager.m; sourceTree = "<group>"; };
+		26114B4A1B70D788007A45A0 /* CYRTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CYRTextStorage.h; path = ZSSRichTextEditor/CYRTextStorage.h; sourceTree = "<group>"; };
+		26114B4B1B70D788007A45A0 /* CYRTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CYRTextStorage.m; path = ZSSRichTextEditor/CYRTextStorage.m; sourceTree = "<group>"; };
+		26114B4C1B70D788007A45A0 /* CYRTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CYRTextView.h; path = ZSSRichTextEditor/CYRTextView.h; sourceTree = "<group>"; };
+		26114B4D1B70D788007A45A0 /* CYRTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CYRTextView.m; path = ZSSRichTextEditor/CYRTextView.m; sourceTree = "<group>"; };
+		26114B4E1B70D788007A45A0 /* CYRToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CYRToken.h; path = ZSSRichTextEditor/CYRToken.h; sourceTree = "<group>"; };
+		26114B4F1B70D788007A45A0 /* CYRToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CYRToken.m; path = ZSSRichTextEditor/CYRToken.m; sourceTree = "<group>"; };
+		26114B501B70D788007A45A0 /* editor.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = editor.html; path = ZSSRichTextEditor/editor.html; sourceTree = "<group>"; };
+		26114B511B70D788007A45A0 /* HRBrightnessCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HRBrightnessCursor.h; path = ZSSRichTextEditor/HRBrightnessCursor.h; sourceTree = "<group>"; };
+		26114B521B70D788007A45A0 /* HRBrightnessCursor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HRBrightnessCursor.m; path = ZSSRichTextEditor/HRBrightnessCursor.m; sourceTree = "<group>"; };
+		26114B531B70D788007A45A0 /* HRCgUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HRCgUtil.h; path = ZSSRichTextEditor/HRCgUtil.h; sourceTree = "<group>"; };
+		26114B541B70D788007A45A0 /* HRCgUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HRCgUtil.m; path = ZSSRichTextEditor/HRCgUtil.m; sourceTree = "<group>"; };
+		26114B551B70D788007A45A0 /* HRColorCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HRColorCursor.h; path = ZSSRichTextEditor/HRColorCursor.h; sourceTree = "<group>"; };
+		26114B561B70D788007A45A0 /* HRColorCursor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HRColorCursor.m; path = ZSSRichTextEditor/HRColorCursor.m; sourceTree = "<group>"; };
+		26114B571B70D788007A45A0 /* HRColorPickerMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HRColorPickerMacros.h; path = ZSSRichTextEditor/HRColorPickerMacros.h; sourceTree = "<group>"; };
+		26114B581B70D788007A45A0 /* HRColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HRColorPickerView.h; path = ZSSRichTextEditor/HRColorPickerView.h; sourceTree = "<group>"; };
+		26114B591B70D788007A45A0 /* HRColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HRColorPickerView.m; path = ZSSRichTextEditor/HRColorPickerView.m; sourceTree = "<group>"; };
+		26114B5A1B70D788007A45A0 /* HRColorPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HRColorPickerViewController.h; path = ZSSRichTextEditor/HRColorPickerViewController.h; sourceTree = "<group>"; };
+		26114B5B1B70D788007A45A0 /* HRColorPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HRColorPickerViewController.m; path = ZSSRichTextEditor/HRColorPickerViewController.m; sourceTree = "<group>"; };
+		26114B5C1B70D788007A45A0 /* HRColorUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HRColorUtil.h; path = ZSSRichTextEditor/HRColorUtil.h; sourceTree = "<group>"; };
+		26114B5D1B70D788007A45A0 /* HRColorUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HRColorUtil.m; path = ZSSRichTextEditor/HRColorUtil.m; sourceTree = "<group>"; };
+		26114B5E1B70D788007A45A0 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Images; path = ZSSRichTextEditor/Images; sourceTree = "<group>"; };
+		26114B5F1B70D788007A45A0 /* ZSSBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZSSBarButtonItem.h; path = ZSSRichTextEditor/ZSSBarButtonItem.h; sourceTree = "<group>"; };
+		26114B601B70D788007A45A0 /* ZSSBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZSSBarButtonItem.m; path = ZSSRichTextEditor/ZSSBarButtonItem.m; sourceTree = "<group>"; };
+		26114B611B70D788007A45A0 /* ZSSRichTextEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZSSRichTextEditor.h; path = ZSSRichTextEditor/ZSSRichTextEditor.h; sourceTree = "<group>"; };
+		26114B621B70D788007A45A0 /* ZSSRichTextEditor.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = ZSSRichTextEditor.js; path = ZSSRichTextEditor/ZSSRichTextEditor.js; sourceTree = "<group>"; };
+		26114B631B70D788007A45A0 /* ZSSRichTextEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZSSRichTextEditor.m; path = ZSSRichTextEditor/ZSSRichTextEditor.m; sourceTree = "<group>"; };
+		26114B641B70D788007A45A0 /* ZSSTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZSSTextView.h; path = ZSSRichTextEditor/ZSSTextView.h; sourceTree = "<group>"; };
+		26114B651B70D788007A45A0 /* ZSSTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZSSTextView.m; path = ZSSRichTextEditor/ZSSTextView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26114AFA1B70B925007A45A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26114B461B70BBD5007A45A0 /* CoreGraphics.framework in Frameworks */,
+				26114B441B70BBCF007A45A0 /* CoreText.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26114B051B70B925007A45A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26114B091B70B925007A45A0 /* libZSSRichTextEditor.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26114AF41B70B924007A45A0 = {
+			isa = PBXGroup;
+			children = (
+				26114B471B70D735007A45A0 /* ZSSRichTextEditor */,
+				26114B451B70BBD5007A45A0 /* CoreGraphics.framework */,
+				26114B431B70BBCF007A45A0 /* CoreText.framework */,
+				26114B0C1B70B925007A45A0 /* ZSSRichTextEditorTests */,
+				26114AFE1B70B925007A45A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26114AFE1B70B925007A45A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26114AFD1B70B925007A45A0 /* libZSSRichTextEditor.a */,
+				26114B081B70B925007A45A0 /* ZSSRichTextEditorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26114B0C1B70B925007A45A0 /* ZSSRichTextEditorTests */ = {
+			isa = PBXGroup;
+			children = (
+				26114B0D1B70B925007A45A0 /* Supporting Files */,
+			);
+			path = ZSSRichTextEditorTests;
+			sourceTree = "<group>";
+		};
+		26114B0D1B70B925007A45A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26114B0E1B70B925007A45A0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26114B471B70D735007A45A0 /* ZSSRichTextEditor */ = {
+			isa = PBXGroup;
+			children = (
+				26114B481B70D788007A45A0 /* CYRLayoutManager.h */,
+				26114B491B70D788007A45A0 /* CYRLayoutManager.m */,
+				26114B4A1B70D788007A45A0 /* CYRTextStorage.h */,
+				26114B4B1B70D788007A45A0 /* CYRTextStorage.m */,
+				26114B4C1B70D788007A45A0 /* CYRTextView.h */,
+				26114B4D1B70D788007A45A0 /* CYRTextView.m */,
+				26114B4E1B70D788007A45A0 /* CYRToken.h */,
+				26114B4F1B70D788007A45A0 /* CYRToken.m */,
+				26114B501B70D788007A45A0 /* editor.html */,
+				26114B511B70D788007A45A0 /* HRBrightnessCursor.h */,
+				26114B521B70D788007A45A0 /* HRBrightnessCursor.m */,
+				26114B531B70D788007A45A0 /* HRCgUtil.h */,
+				26114B541B70D788007A45A0 /* HRCgUtil.m */,
+				26114B551B70D788007A45A0 /* HRColorCursor.h */,
+				26114B561B70D788007A45A0 /* HRColorCursor.m */,
+				26114B571B70D788007A45A0 /* HRColorPickerMacros.h */,
+				26114B581B70D788007A45A0 /* HRColorPickerView.h */,
+				26114B591B70D788007A45A0 /* HRColorPickerView.m */,
+				26114B5A1B70D788007A45A0 /* HRColorPickerViewController.h */,
+				26114B5B1B70D788007A45A0 /* HRColorPickerViewController.m */,
+				26114B5C1B70D788007A45A0 /* HRColorUtil.h */,
+				26114B5D1B70D788007A45A0 /* HRColorUtil.m */,
+				26114B5E1B70D788007A45A0 /* Images */,
+				26114B5F1B70D788007A45A0 /* ZSSBarButtonItem.h */,
+				26114B601B70D788007A45A0 /* ZSSBarButtonItem.m */,
+				26114B611B70D788007A45A0 /* ZSSRichTextEditor.h */,
+				26114B621B70D788007A45A0 /* ZSSRichTextEditor.js */,
+				26114B631B70D788007A45A0 /* ZSSRichTextEditor.m */,
+				26114B641B70D788007A45A0 /* ZSSTextView.h */,
+				26114B651B70D788007A45A0 /* ZSSTextView.m */,
+			);
+			name = ZSSRichTextEditor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26114AFC1B70B925007A45A0 /* ZSSRichTextEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26114B111B70B925007A45A0 /* Build configuration list for PBXNativeTarget "ZSSRichTextEditor" */;
+			buildPhases = (
+				26114AF91B70B925007A45A0 /* Sources */,
+				26114AFA1B70B925007A45A0 /* Frameworks */,
+				26114AFB1B70B925007A45A0 /* CopyFiles */,
+				265087731B70E6390091C9FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZSSRichTextEditor;
+			productName = ZSSRichTextEditor;
+			productReference = 26114AFD1B70B925007A45A0 /* libZSSRichTextEditor.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		26114B071B70B925007A45A0 /* ZSSRichTextEditorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26114B141B70B925007A45A0 /* Build configuration list for PBXNativeTarget "ZSSRichTextEditorTests" */;
+			buildPhases = (
+				26114B041B70B925007A45A0 /* Sources */,
+				26114B051B70B925007A45A0 /* Frameworks */,
+				26114B061B70B925007A45A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26114B0B1B70B925007A45A0 /* PBXTargetDependency */,
+			);
+			name = ZSSRichTextEditorTests;
+			productName = ZSSRichTextEditorTests;
+			productReference = 26114B081B70B925007A45A0 /* ZSSRichTextEditorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26114AF51B70B924007A45A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "WS-MAC-06";
+				TargetAttributes = {
+					26114AFC1B70B925007A45A0 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					26114B071B70B925007A45A0 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 26114AF81B70B924007A45A0 /* Build configuration list for PBXProject "ZSSRichTextEditor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 26114AF41B70B924007A45A0;
+			productRefGroup = 26114AFE1B70B925007A45A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26114AFC1B70B925007A45A0 /* ZSSRichTextEditor */,
+				26114B071B70B925007A45A0 /* ZSSRichTextEditorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26114B061B70B925007A45A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		265087731B70E6390091C9FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				265087741B70E6410091C9FE /* ZSSRichTextEditor.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26114AF91B70B925007A45A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26114B701B70D788007A45A0 /* ZSSBarButtonItem.m in Sources */,
+				26114B6E1B70D788007A45A0 /* HRColorPickerViewController.m in Sources */,
+				26114B6D1B70D788007A45A0 /* HRColorPickerView.m in Sources */,
+				26114B6A1B70D788007A45A0 /* HRBrightnessCursor.m in Sources */,
+				26114B6F1B70D788007A45A0 /* HRColorUtil.m in Sources */,
+				26114B691B70D788007A45A0 /* CYRToken.m in Sources */,
+				26114B661B70D788007A45A0 /* CYRLayoutManager.m in Sources */,
+				26114B6B1B70D788007A45A0 /* HRCgUtil.m in Sources */,
+				26114B711B70D788007A45A0 /* ZSSRichTextEditor.m in Sources */,
+				26114B671B70D788007A45A0 /* CYRTextStorage.m in Sources */,
+				26114B721B70D788007A45A0 /* ZSSTextView.m in Sources */,
+				26114B6C1B70D788007A45A0 /* HRColorCursor.m in Sources */,
+				26114B681B70D788007A45A0 /* CYRTextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26114B041B70B925007A45A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26114B0B1B70B925007A45A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26114AFC1B70B925007A45A0 /* ZSSRichTextEditor */;
+			targetProxy = 26114B0A1B70B925007A45A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		26114B0F1B70B925007A45A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		26114B101B70B925007A45A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26114B121B70B925007A45A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					x86_64,
+					i386,
+					arm64,
+					armv7,
+					armv7s,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64 i386";
+			};
+			name = Debug;
+		};
+		26114B131B70B925007A45A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					x86_64,
+					i386,
+					arm64,
+					armv7,
+					armv7s,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64 i386";
+			};
+			name = Release;
+		};
+		26114B151B70B925007A45A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZSSRichTextEditorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		26114B161B70B925007A45A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZSSRichTextEditorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26114AF81B70B924007A45A0 /* Build configuration list for PBXProject "ZSSRichTextEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26114B0F1B70B925007A45A0 /* Debug */,
+				26114B101B70B925007A45A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26114B111B70B925007A45A0 /* Build configuration list for PBXNativeTarget "ZSSRichTextEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26114B121B70B925007A45A0 /* Debug */,
+				26114B131B70B925007A45A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26114B141B70B925007A45A0 /* Build configuration list for PBXNativeTarget "ZSSRichTextEditorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26114B151B70B925007A45A0 /* Debug */,
+				26114B161B70B925007A45A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26114AF51B70B924007A45A0 /* Project object */;
+}
