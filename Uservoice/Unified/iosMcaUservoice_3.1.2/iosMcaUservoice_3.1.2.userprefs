@@ -1,0 +1,17 @@
+﻿<Properties StartupItem="iosMcaUservoice_3.1.2/iosMcaUservoice_3.1.2.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../../MCA.Economics/trunk/Model/Economic.Model/Economic.Model/DataAccess/SQLite/SQLiteAsync.cs" line="243" offsetX="675" offsetY="3497" expression="System.Exception" liveUpdate="False" />
+    <Watch file="../../../BoCloud.Integration.Financial.EconomicSync/Core/WorkProducer.cs" line="378" offsetX="1560" offsetY="5655" expression="allItems" liveUpdate="False" />
+    <Watch file="../../../MCA.Economics/trunk/Model/Economic.Model/Economic.Model/DataAccess/InvoiceOps.cs" line="93" offsetX="1479" offsetY="1380" expression="invoices" liveUpdate="False" />
+    <Watch file="../../../MCA.Economics/trunk/Model/Economic.Model/Economic.Model/DataAccess/SQLite/SQLiteAsync.cs" line="328" offsetX="677" offsetY="4905" expression="SQLite.SQLiteConnectionWithLock" liveUpdate="False" />
+    <Watch file="../../../BoCloud.Integration.Financial.EconomicSync/DataStores/SQLite/SQLiteDataTable.cs" line="27" offsetX="1219" offsetY="390" expression="DbEntity" liveUpdate="False" />
+    <Watch file="../../../BoCloud.Integration.Financial.EconomicSync/DataStores/SQLite/SQLiteDataTable.cs" line="22" offsetX="605" offsetY="315" expression="DbEntity" liveUpdate="False" />
+    <Watch file="../../../BoCloud.Integration.Financial.EconomicSync/DataStores/SQLite/Database.cs" line="38" offsetX="374" offsetY="555" expression="tables" liveUpdate="False" />
+    <Watch file="../../../BoCloud.Integration.Financial.EconomicSync/Core/WorkProducer.cs" line="951" offsetX="634" offsetY="6495" expression="allDbItems" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+</Properties>
