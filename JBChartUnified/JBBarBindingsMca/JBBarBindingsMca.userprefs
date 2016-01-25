@@ -1,0 +1,12 @@
+﻿<Properties StartupItem="JBBarBindingsMca/JBBarBindingsMca.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="JBBarBindingsMca/libJBChart.linkwith.cs">
+    <Files>
+      <File FileName="JBBarBindingsMca/libJBChart.linkwith.cs" Line="22" Column="22" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
