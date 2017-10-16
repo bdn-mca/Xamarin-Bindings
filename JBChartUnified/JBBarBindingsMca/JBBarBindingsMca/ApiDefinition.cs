@@ -178,7 +178,7 @@ namespace JBBarBindingsMca
 	}
 
 
-	[Model, BaseType (typeof (NSObject))] //Addwed
+	[Model, BaseType (typeof (NSObject)), Protocol] //Addwed
 	public partial interface JBChartViewDataSource {
 
 		[Export ("shouldExtendSelectionViewIntoHeaderPaddingForChartView:")]
@@ -188,7 +188,7 @@ namespace JBBarBindingsMca
 		bool ShouldExtendSelectionViewIntoFooterPaddingForChartView (JBChartView chartView);
 	}
 
-	[Model, BaseType (typeof (NSObject))]
+    [Model, BaseType (typeof (NSObject)), Protocol]
 	public partial interface JBChartViewDelegate {
 
 
@@ -209,7 +209,7 @@ namespace JBBarBindingsMca
 
 
 
-	[Model, BaseType (typeof (NSObject))] //Added
+    [Model, BaseType (typeof (NSObject)), Protocol] //Added
 	public partial interface JBLineChartViewDataSource : JBChartViewDataSource {
 
 		[Export ("numberOfLinesInLineChartView:")]
@@ -231,7 +231,7 @@ namespace JBBarBindingsMca
 		bool LineChartViewshouldHideDotViewOnSelectionAtHorizontalIndex (JBLineChartView lineChartView, uint horizontalIndex, uint lineIndex);
 	}
 
-	[Model, BaseType (typeof (NSObject))] //Added
+    [Model, BaseType (typeof (NSObject)), Protocol] //Added
 	public partial interface JBLineChartViewDelegate : JBChartViewDelegate {
 
 		[Export ("lineChartView:verticalValueForHorizontalIndex:atLineIndex:")]

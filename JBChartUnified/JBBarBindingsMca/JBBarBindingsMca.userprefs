@@ -1,12 +1,26 @@
-﻿<Properties StartupItem="JBBarBindingsMca/JBBarBindingsMca.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="JBBarBindingsMca/libJBChart.linkwith.cs">
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="JBBarBindingsMca/ApiDefinition.cs">
     <Files>
-      <File FileName="JBBarBindingsMca/libJBChart.linkwith.cs" Line="22" Column="22" />
+      <File FileName="JBBarBindingsMca/libJBChart.linkwith.cs" Line="7" Column="22" />
+      <File FileName="JBBarBindingsMca/ApiDefinition.cs" Line="243" Column="67" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="JBBarBindingsMca" expanded="True">
+            <Node name="JBBarBindingsMca" expanded="True">
+              <Node name="ApiDefinition.cs" selected="True" />
+              <Node name="libJBChart.a" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
 </Properties>
