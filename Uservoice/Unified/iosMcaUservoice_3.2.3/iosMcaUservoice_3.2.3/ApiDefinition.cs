@@ -140,7 +140,7 @@ namespace iosMcaUservoice_3_2_3
         NSObject [] Attachments { get; }
     }
 
-    [Model, BaseType (typeof (NSObject))]
+    [Model, BaseType (typeof (NSObject)), Protocol]
     public partial interface UVDelegate {
 
         [Export ("userVoiceWasDismissed")]
